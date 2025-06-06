@@ -26,7 +26,7 @@ export default defineConfig({
   root: path.resolve(import.meta.dirname, "client"),
   base: '/TrendingStockScreenerTV/',
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: 'dist', //path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
   },
   server: {
